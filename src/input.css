@@ -8,7 +8,7 @@
     }
 
     .input {
-        @apply border border-lightGrey w-[100px] md:w-[150px] rounded-md
+        @apply border border-lightGrey w-[105px] md:w-[150px] rounded-md
         text-[24px] md:text-[32px] font-bold placeholder:font-bold px-4 py-1  appearance-none focus:outline-purple cursor-pointer;
     }
 
