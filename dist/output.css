@@ -672,11 +672,6 @@ video {
   border-color: hsl(0 0% 86% / var(--tw-border-opacity));
 }
 
-.border-lightRed {
-  --tw-border-opacity: 1;
-  border-color: hsl(0 100% 67% / var(--tw-border-opacity));
-}
-
 .bg-offWhite {
   --tw-bg-opacity: 1;
   background-color: hsl(0 0% 94% / var(--tw-bg-opacity));
@@ -724,11 +719,6 @@ video {
 
 .italic {
   font-style: italic;
-}
-
-.text-lightRed {
-  --tw-text-opacity: 1;
-  color: hsl(0 100% 67% / var(--tw-text-opacity));
 }
 
 .text-purple {
