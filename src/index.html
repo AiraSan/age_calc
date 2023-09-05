@@ -8,15 +8,9 @@
   
   <title>Frontend Mentor | Age calculator app</title>
   <link rel="stylesheet" href="/dist/output.css">
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <!-- <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style> -->
 </head>
-<body class="max-h-screen bg-offWhite font-poppins">
-  <div class="box bg-white w-[400px] p-10 mx-auto mt-[55px] rounded-xl rounded-br-[150px]">
+<body class="max-h-screen px-1 bg-offWhite font-poppins">
+  <div class="box bg-white w-full md:w-[600px] p-10 mx-auto mt-[100px] md:mt-[30px] rounded-xl rounded-br-[150px]">
     <div class="input-fields flex justify-between">
       <div class="input-field">
         <label for="day" class="input-label">Day</label>
@@ -36,7 +30,7 @@
 
       </div>
     </div>
-    <div class="flex justify-center items-center my-16 md:mt-6 relative">
+    <div class="flex justify-center items-center my-[50px] md:mt-14 relative">
       <span class="w-full w-full border-t-2 border-lightGrey"></span>
       <img src="/assets/images/icon-arrow.svg" class=" bg-purple absolute rounded-full p-3 md:p-4 cursor-pointer button duration-150 hover:bg-offBlack">
     </div>
@@ -46,10 +40,6 @@
       <h1 class="text-[50px] md:text-[55px] font-bold italic"><span class="text-purple display-day">--</span> days</h1>
     </div>
   </div>
-  <!-- <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
   <script src="app.js"></script>
 </body>
 </html>
